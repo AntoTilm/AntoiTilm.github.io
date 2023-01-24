@@ -1,0 +1,30 @@
+article div{
+	outline: 0px solid orange;
+}
+article{
+	padding: 50px 50px 50px 50px;
+}
+section h1{
+	padding: 20px 50px 30px 80px;
+}
+article h2{
+	padding-bottom: 80px;
+}
+article{
+	background-color: white;
+}
+article img{
+	width: 595px;
+	height: 300px;
+	object-fit: cover;
+}
+article .grid{
+	max-width: 1800px;
+	margin: auto;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 300px 300px 300px;
+	gap: 20px;
+}
